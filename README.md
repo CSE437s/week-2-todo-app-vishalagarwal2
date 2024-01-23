@@ -13,7 +13,7 @@ This assignment challenges you to design and build a simple to-do application us
 
 - **Effort:** Don't stress, we want to see what you can create, regardless of how close you come to a full app. There is no grade, but an attempt is mandatory.
 - **Visibility:** Your effort must be visible on a frontend somewhere, even if it is raw JSON with raw HTML buttons (Sorry BE friends, this is to make evaluation practical).
-- **Hosting:** [Use Github Pages](https://pages.github.com/).
+- **Hosting:** [Use Vercel](https://vercel.com/guides/deploying-react-with-vercel).
 - **Time Limit:** 2 Hours
 
 ## Considerations:
