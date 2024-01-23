@@ -41,33 +41,31 @@ This assignment challenges you to design and build a simple to-do application us
 - **Scalability:** Consider future growth of your app and choose a technology stack that can handle it.
 
 ## Hosting with Github Pages:
-GitHub Pages allows you to host static websites directly from your GitHub repository. Follow these steps to host your To-Do App:
+Certainly! Here are step-by-step instructions for students to host their To-Do App websites on GitHub Pages after accepting the assignment from GitHub Classroom:
 
-1. **Create a GitHub Repository:**
-   - Go to [GitHub](https://github.com/) and log in or sign up.
-   - Click on the "+" sign in the top right corner and choose "New repository."
-   - Name your repository (e.g., todo-app) and add a brief description.
-   - Initialize the repository with a README if you haven't already.
+### Hosting To-Do App on GitHub Pages
+1. **Make sure you've accepted the Github Classroom assignment**
+2. **Create a `docs` Folder:**
+   - GitHub Pages requires a `docs` folder for projects that don't use the default `gh-pages` branch. Create a `docs` folder at the root of your project:
+     ```bash
+     mkdir docs
+     ```
 
-2. **Upload Your To-Do App Files:**
-   - Upload all your To-Do App files (HTML, CSS, JavaScript, etc.) to the GitHub repository.
-   - Commit the changes to the repository.
+3. **Configure GitHub Pages in Repository Settings:**
+   - Go to your GitHub repository.
+   - Click on "Settings" and scroll down to the "GitHub Pages" section.
+   - Set the source branch to `main` (or the branch where your code resides) and choose the `docs` folder as the root directory.
 
-3. **Enable GitHub Pages:**
-   - In your repository, go to the "Settings" tab.
-   - Scroll down to the "GitHub Pages" section.
-   - In the "Source" drop-down menu, select the branch where your main To-Do App files are located (usually, it's the `main` branch).
-   - Click "Save."
+4. **Commit and Push:**
+   - Commit your changes, including the new `docs` folder, to your local repository:
+     ```bash
+     git add .
+     git commit -m "Add docs folder for GitHub Pages"
+     git push origin main
+     ```
 
-4. **Access Your Hosted To-Do App:**
-   - After saving, GitHub Pages will provide a link to your hosted To-Do App. It may take a few minutes for the changes to take effect.
-   - You can find the link under the "GitHub Pages" section in the repository settings.
+5. **Check GitHub Pages URL:**
+   - After pushing the changes, go back to the "GitHub Pages" section in your repository settings. You should see a link to your hosted To-Do App.
 
-5. **Share Your To-Do App:**
-   - Copy the provided link and share it with others. Now, your To-Do App is accessible online.
-
-**Note:**
-- GitHub Pages hosts static websites, so if your To-Do App relies on server-side logic (e.g., Node.js with Express), you may need to explore alternative hosting options.
-- Ensure that your repository structure is suitable for GitHub Pages, and all necessary files (HTML, CSS, JavaScript) are in the main branch.
-
-By following these steps, students can easily host their To-Do Apps on GitHub Pages and share their work with others.
+6. **Verify Deployment:**
+   - Open the provided GitHub Pages URL in your web browser to verify that your To-Do App is successfully deployed.
